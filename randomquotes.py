@@ -14,6 +14,7 @@ phrases = [
     "Alone or not you gonna walk forward.",
 ]
 
+
 @app.route('/')
 def get_random_quote():
     phrase = random.choice(phrases)
